@@ -39,6 +39,9 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 1020px;
+  overflow: hidden;
+  overflow: scroll;
+  scrollbar-width: none;
 }
 
 .job-box {
@@ -95,6 +98,14 @@ span {
 
 .footer-box > a:hover {
   color: #8b0d97;
+}
+@media (max-width: 1024px) {
+  .job-bloc {
+    justify-content: space-around;
+    overflow: hidden;
+    overflow: scroll;
+    scrollbar-width: none;
+  }
 }
 @media (max-width: 650px) {
   .job-bloc {
