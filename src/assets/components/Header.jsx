@@ -1,8 +1,10 @@
+import Title from "./Title";
+
 const Header = () => {
   return (
     <header>
       <div className="container">
-        <h1>The Job Board</h1>
+        <Title title="The Job Board" />
       </div>
     </header>
   );
