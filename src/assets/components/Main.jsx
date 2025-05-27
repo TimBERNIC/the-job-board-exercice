@@ -1,6 +1,6 @@
 import Job from "./Job";
 
-const Jobs = () => {
+const Main = () => {
   return (
     <main>
       <div className="container job-bloc ">
@@ -72,4 +72,4 @@ const Jobs = () => {
   );
 };
 
-export default Jobs;
+export default Main;
